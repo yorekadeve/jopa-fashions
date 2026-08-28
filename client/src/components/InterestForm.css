@@ -1,0 +1,46 @@
+.interest-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.interest-form input,
+.interest-form textarea {
+  font-family: var(--font-body);
+  font-size: 12px;
+  padding: var(--space-3);
+  border: 0.5px solid #D0CCC5;
+  border-radius: 6px;
+  outline: none;
+  background: var(--color-cream);
+  color: var(--color-charcoal);
+  width: 100%;
+}
+
+.interest-form input:focus,
+.interest-form textarea:focus {
+  border-color: var(--color-navy);
+}
+
+.interest-form__readonly {
+  background: #E8E6E0;
+  color: #5F5E5A;
+  cursor: not-allowed;
+}
+
+.interest-form__success {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  text-align: center;
+  font-family: var(--font-body);
+  font-size: 12px;
+  color: var(--color-charcoal);
+}
+
+.interest-form__error {
+  font-family: var(--font-body);
+  font-size: 11px;
+  color: #C0392B;
+  text-align: center;
+}

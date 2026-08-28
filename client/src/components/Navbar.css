@@ -1,0 +1,85 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-4) var(--space-6);
+  background: var(--color-white);
+  border-bottom: 0.5px solid #E0DDD8;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar__brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.navbar__logo-placeholder {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--color-navy);
+  border: 1px dashed #E0DDD8;
+}
+
+.navbar__name {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.03em;
+  color: var(--color-charcoal);
+}
+
+.navbar__hamburger {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  display: block;
+  color: var(--color-charcoal);
+}
+
+.navbar__links {
+  display: none;
+  flex-direction: column;
+  list-style: none;
+  gap: var(--space-4);
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  background: var(--color-white);
+  padding: var(--space-4) var(--space-6);
+  border-bottom: 0.5px solid #E0DDD8;
+  z-index: 99;
+}
+
+.navbar__links--open {
+  display: flex;
+}
+
+.navbar__links a {
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--color-charcoal);
+  text-decoration: none;
+}
+
+.navbar__links a:hover {
+  color: var(--color-terracotta);
+}
+
+@media (min-width: 768px) {
+  .navbar__hamburger { display: none; }
+  .navbar__links {
+    display: flex;
+    flex-direction: row;
+    position: static;
+    width: auto;
+    padding: 0;
+    border: none;
+    gap: var(--space-6);
+  }
+}

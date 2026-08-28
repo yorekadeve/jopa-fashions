@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Kitenge Wrap Dress",
+    "type": "Custom fit",
+    "description": "Custom Kitenge wrap dress, tailored to your measurements. Available in any Kitenge print of your choice.",
+    "image": "/images/kitenge-wrap.jpg",
+    "whatsapp_message": "Hi, I am interested in the Kitenge Wrap Dress from JOPA Fashions."
+  },
+  {
+    "id": 2,
+    "name": "Bahima Fitted Suit",
+    "type": "Custom fit",
+    "description": "Elegant fitted suit in the Bahima tradition, tailored from fabric of your choice. Sharp shoulders, clean lines.",
+    "image": "/images/bahima-suit.jpg",
+    "whatsapp_message": "Hi, I am interested in the Bahima Fitted Suit from JOPA Fashions."
+  },
+  {
+    "id": 3,
+    "name": "Kitenge Gomesi Gown",
+    "type": "Custom fit",
+    "description": "A classic Gomesi gown in vibrant Kitenge fabric, fitted to your body and styled for any occasion.",
+    "image": "/images/gomesi-gown.jpg",
+    "whatsapp_message": "Hi, I am interested in the Kitenge Gomesi Gown from JOPA Fashions."
+  }
+]

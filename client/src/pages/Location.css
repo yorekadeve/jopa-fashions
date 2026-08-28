@@ -1,0 +1,44 @@
+.location-page {
+  padding: var(--space-8) var(--space-6);
+  max-width: 480px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.location-page__title {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--color-charcoal);
+  text-align: center;
+}
+
+.location-page__map {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.location-page__address {
+  background: var(--color-white);
+  border-radius: 8px;
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.location-page__name {
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-charcoal);
+}
+
+.location-page__detail {
+  font-family: var(--font-body);
+  font-size: 12px;
+  color: #5F5E5A;
+}
