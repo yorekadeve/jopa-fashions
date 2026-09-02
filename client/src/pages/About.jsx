@@ -1,10 +1,15 @@
+import styles from '../data/gallery.json'
 import './About.css'
 
 function About() {
   return (
     <main className="about-page">
       <h1 className="about-page__title">Our Story</h1>
-      <div className="about-page__photo" />
+      <img
+        className="about-page__photo"
+        src="/images/about-photo.jpg"
+        alt="JOPA Fashions workshop"
+      />
       <p className="about-page__text">
         JOPA Fashions began in a small village workshop, where every customer was welcomed,
         measured by hand, and remembered. For years, our founder sewed custom Kitenge and
@@ -18,12 +23,12 @@ function About() {
           <p className="about-page__stat-label">Custom fit</p>
         </div>
         <div className="about-page__stat">
-          <p className="about-page__stat-value">2</p>
+          <p className="about-page__stat-value">{styles.length}</p>
           <p className="about-page__stat-label">Styles offered</p>
         </div>
         <div className="about-page__stat">
-          <p className="about-page__stat-value">Local</p>
-          <p className="about-page__stat-label">Mbarara roots</p>
+          <p className="about-page__stat-value">Rwashamaire</p>
+          <p className="about-page__stat-label">Ntungamo roots</p>
         </div>
       </div>
     </main>

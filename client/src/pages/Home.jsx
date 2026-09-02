@@ -19,7 +19,7 @@ function Home() {
           {styles.map(function(style) {
             return (
               <div className="featured__card" key={style.id}>
-                <div className="featured__image" />
+                <img className="featured__image" src={style.image} alt={style.name} />
                 <div className="featured__body">
                   <p className="featured__name">{style.name}</p>
                 </div>

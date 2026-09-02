@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './InterestForm.css'
 
 function InterestForm({ style, onClose }) {
-  const [form, setForm] = useState({ name: '', phone: '', style: style, notes: '' })
+  const [form, setForm] = useState({ name: '', phone: '', email: '', style: style, notes: '' })
   const [status, setStatus] = useState(null)
 
   function handleChange(e) {
@@ -44,6 +44,12 @@ function InterestForm({ style, onClose }) {
         name="phone"
         placeholder="Your phone number"
         value={form.phone}
+        onChange={handleChange}
+      />
+      <input
+        name="email"
+        placeholder="Your email (optional)"
+        value={form.email}
         onChange={handleChange}
       />
       <input

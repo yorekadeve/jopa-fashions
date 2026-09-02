@@ -11,7 +11,7 @@ function Footer() {
           </div>
           <div className="footer__right">
             <div className="footer__socials">
-              <a href="#" aria-label="WhatsApp" target="_blank" rel="noreferrer">WhatsApp</a>
+              <a href="https://wa.me/256769145675" aria-label="WhatsApp" target="_blank" rel="noreferrer">WhatsApp</a>
               <a href="#" aria-label="TikTok"   target="_blank" rel="noreferrer">TikTok</a>
               <a href="#" aria-label="X"        target="_blank" rel="noreferrer">X</a>
               <a href="#" aria-label="Facebook" target="_blank" rel="noreferrer">Facebook</a>
